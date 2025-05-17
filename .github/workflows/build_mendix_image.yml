@@ -4,7 +4,7 @@ on: [push]
 env:
   AWS_REGION: cn-north-1  # e.g., us-east-1
   ECR_REPOSITORY: fams
-  Version: 1.0.1
+  Version: 1.0.2
 
 jobs:
   build-and-push:
