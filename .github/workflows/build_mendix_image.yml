@@ -30,6 +30,9 @@ jobs:
                 
       - name: Show files
         run: ls
+        
+      - name: Pull redhat image
+        run: docker pull registry.access.redhat.com/ubi9/ubi-minimal:9.4
 
       - name: Build Mendix App image
         run: docker build -t mendix-rootfs:app -f rootfs-app.dockerfile .
