@@ -1,6 +1,6 @@
 # Dockerfile to create a Mendix Docker image based on either the source code or
 # Mendix Deployment Archive (aka mda file)
-FROM registry.access.redhat.com/ubi9/ubi-minimal:latest
+FROM redhat/ubi9-minimal 
 #This version does a full build originating from the Ubuntu Docker images
 LABEL Author="Mendix Digital Ecosystems"
 LABEL maintainer="digitalecosystems@mendix.com"
